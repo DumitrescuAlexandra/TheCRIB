@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>The Crib &mdash; Gathering place of frenemies </title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="The Crib logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <buton class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </buton>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/user.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Markus</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                  <span>The pub</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-spoon-knife"></use>
+                  <span>The grub</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-glass"></use>
+                  <span>The booze</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-dice"></use>
+                  <span>THE GAME</span>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">&copy; 2021 by TheCrib. All rights reserved</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/pub-1.jpg"
+                alt="Photo oh pub 1"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/pub-2.jpg"
+                alt="Photo oh pub 2"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/pub-3.jpg"
+                alt="Photo oh pub 3"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">The Crib Pub</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Piata Muzeului, Cluj-Napoca</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">9.1</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                You did hear rumors about this pub, supposedly it's famous for something, but you can't remember what for. Though judging by the smells of grilled and cooked food coming from the kitchen, it must be the food. You manage to find a seat and prepare for what will undoubtedbly be a great evening. 
+              </p>
+              <p class="paragraph">
+                'The Crib' is the place where you come in with your friends and leave with your enemies, after fierce in-game battles. Make sure you check our menu and book a table for your group of 'frenemies'!
+              </p>
+              <ul class="list">
+                <li class="list__item">In the center of town </li>
+                <li class="list__item">Booths for 6-10 people</li>
+                <li class="list__item">75+ boardgames</li>
+                <li class="list__item">Friendly staff members</li>
+                <li class="list__item">A wide range of drinks</li>
+                <li class="list__item">Delicious pub grubs</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Pets allowed inside</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Sara and 3 other friends recommend this location
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <figure class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  The atmosphere is really nice at 'The Crib', we had lots of fun. The staff is not actually really trained into boardgames rules, but besides that - everything's great.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Dan Gram</p>
+                    <p class="review__user-date">Feb 23rd, 2021</p>
+                    </div>
+                  <div class="review__rating">8.3</div>
+                </figcaption>
+              </figure>
+            
+
+            
+              <figure class="review">
+                <blockquote class="review__text">
+                  We were really surprised to find such a nice place in the middle of the city. The staff is amazing, prices are more than decent and the food is really delicious!
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="User 2"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Laura Pop</p>
+                    <p class="review__user-date">Sep 13th, 2020</p>
+                  </div>
+                  <div class="review__rating">9.8</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+
+            </div>
+
+        <div class="cta"
+            ><h2 class="cta__book-now">
+                Good news! We have 4 free tables that match your preferences!
+            </h2>
+            <button class="btn">
+                <span class="btn__visible">Book now!</span>
+                <span class="btn__invisible">Only 4 tables left</span>
+               
+            </button>
+        </div>
+
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
